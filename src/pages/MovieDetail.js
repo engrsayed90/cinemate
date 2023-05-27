@@ -18,8 +18,8 @@ export const MovieDetail = () => {
       console.log(json);
     }
     fetchMovie();
-    //eslint-disable-next-line 
-  }, []);
+    
+  }, [params.id]);
 
   return (
     <main>
